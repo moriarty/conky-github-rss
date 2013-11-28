@@ -1,3 +1,11 @@
+I found a blog post here:
+http://obakfahad.com/archives/a-very-beautiful-conky-with-rss-feed-reader
+
+Which I used to start from. 
+I don't know why it wasn't easier to get add an RSS feed reader to conky.
+All I wanted was an RSS feed for github on my desktop. 
+So I modified the one above.
+
 The MIT License (MIT)
 
 Copyright (c) 2013 Alex Moriarty

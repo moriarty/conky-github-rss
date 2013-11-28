@@ -1,0 +1,12 @@
+##
+## Never put your github tokens into version control
+##
+## go to github.com and login
+## go to your newsfeed, and find the subscribe link
+## your private token is visable in the URL
+## 
+## copy the token into ~/.gitrsstoken 
+## only the 32 char token, none of the URL is required
+##
+## If your dotfiles are in source control, add .gitrsstoken to your gitignore
+## 
