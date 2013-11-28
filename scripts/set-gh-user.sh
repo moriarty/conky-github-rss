@@ -2,8 +2,8 @@
 
 USERNAME=`git config user.name`
 
-if [ -f ../GH-RSS/config/RSS ]; then
-    RSSCONFIG=../GH-RSS/config/RSS
+if [ -f ../GH-RSS/config/GH-RSS ]; then
+    RSSCONFIG=../GH-RSS/config/GH-RSS
 else
     echo "GH-RSS config file not found."
     echo "please see the script."
