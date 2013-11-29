@@ -66,7 +66,9 @@ own_window_argb_visual yes
 own_window_colour 000000
 own_window_argb_value 178
 TEXT
-${font Ubuntu:size=14:regular:bold}${color #00BEFF}GITHUBUSERID GitHub FEED:
+${font Ubuntu:size=14:regular:bold}${color #00BEFF}GITHUBUSERID Public GitHub FEED:
+${font Ubuntu:size=8:rugular:bold}${color #E89909}${execi 300 conky-gh-rss.sh https://github.com/GITHUBUSERID.atom 10}
+${font Ubuntu:size=14:regular:bold}${color #00BEFF}GITHUBUSERID Private GitHub FEED:
 ${font Ubuntu:size=8:rugular:bold}${color #E89909}${execi 300 conky-gh-rss.sh https://github.com/GITHUBUSERID.private.atom?token=`cat ~/.gitrsstoken` 10}
 ${font Ubuntu:size=14:regular:bold}${color #00BEFF}GitHub Blog Feed:
 ${font Ubuntu:size=8:rugular:bold}${color #E89909}${execi 300 conky-gh-rss.sh }
