@@ -13,7 +13,7 @@ requires: conky-manager and curl.
 The instructions say to run some magic scripts so you should make sure I don't do anything evil.
 I don't. It's just some sed/grep/curl and one cat command. 
 
-2. Place ```scritps/conky-gh-rss.sh``` into your ```$PATH```
+2. Place ```scripts/conky-gh-rss.sh``` into your ```$PATH```
 My recommendation is either copying it to ```~/bin``` or creating a link from ```~/bin/conky-gh-rss.sh``` to it. 
 
 3. from the scripts folder, run the ```set-gh-user.sh``` or modify ```/GH-RSS/config/GH-RSS``` manually
